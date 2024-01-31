@@ -1,0 +1,22 @@
+1- Webpack build with default configuration without webpack config. ----------> Done
+2- Convert this project to use type-script -----> 29 Jan 2024
+3- Use webpack most use plugin to setup the environment for development(HTML webpack plugin, webpack dev server) -----> 29 Jan 2024
+4- Add react library -----> 29 Jan 2024
+5- Add CSS support -----> 29 Jan 2024
+6- Add CSS module support -----> 29 Jan 2024
+7- Add Image support  -----> 29 Jan 2024 
+12- Custom loader
+13- Custom plugin
+8- Add TailwindCSS
+9- Create a Reusable lego Button
+10- Add multi-tenant Theme support
+11- Add Stylex with theme support
+14- enable source map for debugging in local development
+15- Dev and production webpack config and conditional usage of plugins
+16- Explore create-react app
+17- module federation
+
+
+Resume update - 5th February
+
+
