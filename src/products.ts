@@ -1,4 +1,4 @@
-import fetchproducts from './product-client';
+import {fetchproducts} from './product-client';
 interface Product {
     category: string,
     description: string,

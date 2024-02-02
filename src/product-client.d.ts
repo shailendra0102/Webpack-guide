@@ -1,1 +1,2 @@
-export default function fetchproducts(): Promise<any>;
+export function fetchproducts(): Promise<any>;
+export function getPreviousThreeMonths(): void;
