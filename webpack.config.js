@@ -1,16 +1,23 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 module.exports = {
-    mode: "none",
+    entry: './src/index.jsx',
+    mode: "development",
     module:{
         rules: [
             {
-                test: /\.ts?$/,
-                use: 'ts-loader',
+                test: /\.jsx?$/,
+                use: ['babel-loader'],
                 exclude: /node_modules/
             }
         ]
     },
+    resolve: {
+        modules: [__dirname, "src", "node_modules"],
+        extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],
+      },
     plugins: [
-        new HtmlWebpackPlugin()
+        new HtmlWebpackPlugin({
+            template: './public/index.html'
+        })
     ]
 }
